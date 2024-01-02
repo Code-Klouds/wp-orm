@@ -19,10 +19,11 @@ class Config
             'migration_base_class' => \Phinx\Migration\AbstractMigration::class,
             'paths' => [
                 'migrations' => $userConfig['migrations_path'],
+                'seeds' => $userConfig['seeds_path'] ?? null,
             ],
             'environments' => [
-                'default_migration_table' => 'phinxlog',
-                'default_database' => 'default',
+                'default_migration_table' => $userConfig['migration_table'] ?? 'phinxlog',
+                'default_database' => $userConfig['default_database'] ?? 'default',
                 'default' => [
                     'adapter' => 'mysql',
                     'host' => $userConfig['db_host'] ?? '',
