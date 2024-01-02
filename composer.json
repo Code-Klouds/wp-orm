@@ -1,20 +1,11 @@
 {
-  "name": "dbout/wp-orm",
+  "name": "code-klouds/wp-orm",
   "description": "Wordpress ORM with Eloquent and Phinx",
   "type": "package",
-  "license": "GPL-2.0-or-later",
-  "authors": [
-    {
-      "name": "Dimitri BOUTEILLE",
-      "email": "bonjour@dimitri-bouteille.fr",
-      "homepage": "https://github.com/dimitriBouteille",
-      "role": "Developer"
-    }
-  ],
-  "keywords": ["wordpress", "wp", "orm", "database", "eloquent", "db", "sql", "migration", "phinx"],
-  "homepage": "https://github.com/dimitriBouteille/wp-orm/",
+  "license": "GPL-2.0-or-later",  
+  "homepage": "https://github.com/Code-Klouds/wp-orm/",
   "support": {
-    "issues": "https://github.com/dimitriBouteille/wp-orm/issues"
+    "issues": "https://github.com/Code-Klouds/wp-orm/issues"
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
